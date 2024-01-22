@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormBuyTicket</class>
+ <widget class="QWidget" name="FormBuyTicket">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1443</width>
+    <height>908</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>100</y>
+     <width>1361</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buyButton">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>50</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>购买</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormSelectSeat</class>
+ <widget class="QWidget" name="FormSelectSeat">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1092</width>
+    <height>1123</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1091</width>
+     <height>891</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>890</y>
+     <width>761</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="definiteButton">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>940</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>1020</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
